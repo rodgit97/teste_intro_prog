@@ -74,3 +74,14 @@ for colecao in mantimentos:
     for comida in colecao:
         print(comida, end = " ")
     print()
+
+print("-------------------------")
+numero_pad = ((1,2,3,),(4,5,6,),(7,8,9,),("#",0,"*"))
+
+for row in numero_pad:
+    print(row)
+
+for row in numero_pad:
+    for num in row:
+        print(num, end= " ")
+    print()
